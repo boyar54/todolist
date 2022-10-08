@@ -1,9 +1,11 @@
 import React from "react";
 
 const Tasks = () => {
+    let taskName = null
     return (
-        <div>
-
+        <div id={"task"}>
+            {taskName}
+            <input className={"isComplete"} type={"checkbox"}/>
         </div>
     )
 }
